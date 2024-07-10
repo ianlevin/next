@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
       <ul>
       <li>
         <Link href="/">Home</Link>
@@ -20,7 +20,16 @@ export default function RootLayout({ children }) {
       <li>
         <Link href="/about">Quines somos</Link>
       </li>
+      <li>
+        <Link href="/reservas">Reservas</Link>
+      </li>
+      <li>
+        <Link href="/contacto">Contacto</Link>
+      </li>
     </ul>
+      {children}
+      </body>
+      
     </html>
   );
 }
