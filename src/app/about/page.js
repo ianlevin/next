@@ -1,7 +1,8 @@
-export default function Contacto() {
+
+export default function About() {
     return (
       <div>
-        <h1>hola</h1>
+        <img src='../img/foto.jpg' alt="" width=""></img>
       </div>
     );
   };
