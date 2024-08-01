@@ -1,6 +1,8 @@
+import style from '../contacto/page.css'
+
 export default function Contacto() {
   return (
-    <div>
+    <div className={style.main}>
       <form>
         <ul>
           <li>
